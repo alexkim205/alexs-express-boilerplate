@@ -10,7 +10,7 @@ Navigate to your project root and run:
 Feel free to rename folder to whatever you want.
 
 ## Dependencies
-This boilerplate uses Node.js to manage packages. It comes preinstalled with these packages:
+This boilerplate uses Node.js to manage packages. It comes with these dependencies:
 
     "dependencies": {
       "browserify": "^16.2.2",
