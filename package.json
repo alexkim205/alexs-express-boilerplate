@@ -1,0 +1,20 @@
+{
+  "name": "express_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "css": "node-sass ./public/sass -ro ./public/css",
+    "css:watch": "npm run css && node-sass ./public/sass -rwo ./public/css",
+    "browserify": "browserify ./public/js/index.js -o ./public/js/index_bundle.js",
+    "browserify:watch": "npm run browserify && watchify ./public/js/index.js -o ./public/js/index_bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "express": "^4.16.3",
+    "node-sass": "^4.9.0",
+    "pug": "^2.0.3"
+  }
+}
