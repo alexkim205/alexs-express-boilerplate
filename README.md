@@ -28,7 +28,7 @@ To make and watch for changes in `.sass` files in the `./public/sass` folder:
     $ npm run css
     $ npm run css:watch
 
-To watch for changes in `index.js` file in the `./public/js` folder:
+To make and watch for changes in `index.js` file in the `./public/js` folder:
 
     $ npm run browserify
     $ npm run browserify:watch
